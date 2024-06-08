@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "ktnlvr-one-off-fun",
+	"version": "${version}",
+	"name": "Kittenlover's One Off Fun",
+	"description": "",
+	"authors": [
+		"ktnlvr <artur.roos.artur@gmail.com>"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/ktnlvr/ktnlvr-one-off-fun"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ktnlvr-one-off-fun/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ktnlvr.one.KtnlvrMod"
+		],
+		"fabric-datagen": [
+			"net.ktnlvr.one.KtnlvrDataGenerator"
+		]
+	},
+	"mixins": [
+		"ktnlvr-one-off-fun.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
