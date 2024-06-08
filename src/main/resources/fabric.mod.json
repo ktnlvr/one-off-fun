@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "ktnlvr-one-off-fun",
+	"id": "ktnlvr",
 	"version": "${version}",
 	"name": "Kittenlover's One Off Fun",
 	"description": "",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/ktnlvr/ktnlvr-one-off-fun"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/ktnlvr-one-off-fun/icon.png",
+	"icon": "assets/ktnlvr/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
